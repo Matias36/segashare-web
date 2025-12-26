@@ -78,7 +78,14 @@ h6 {
 .nav-link{
     color: #246dff !important;
     align-items: center;
+    transition: 0.2s;
 }
+
+.nav-link:hover{
+    color: #ffffff !important;
+    background-color: #246dff !important;
+    
+ }
 
 .navbar-toggler-icon{
     color: #246dff !important;
@@ -483,4 +490,5 @@ h6 {
   
 
   }
+
 }
